@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page3{
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.left-side{
+    padding-left: 50px;
+    border: 1px solid red;
+}
+
+.right-side{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.image-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section .dashed-image{
+     padding-left: 35px;
+     padding-top: 7px;
+     padding-bottom: 7px;
+}
+
+.image1{
+    padding-top: 30px;
+}
+
+.text-section{
+    padding-top: 50px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.text-section p{
+    padding-top: 20px;
+}
+
