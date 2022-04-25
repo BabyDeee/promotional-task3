@@ -155,29 +155,24 @@ a:hover{
      background-color: #ff6433;;
 }
 
-  /* Page 5 */
+/* PAGE 5 */
 
-
-.contain{
-    width: 90%;
-    padding: 20px;
-    margin: 50px 0 0 0;
-    display: flex;
-}
-
-.box img{
-    width: 430px;
-    height: 300px;
-}
-
-.outer-box{
-    width: 430px;
-    height: 300px;
-    background: #FF6433;
+.page5{
+    background-image: url('../img/car.png'),  url('../img/tools.png');
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
 .box:hover{
-    transform: scale(1.3);
+     transform: scale(1.3) 
+}
+
+.outer-box{
+    width: 500px;
+    height: 300px;
+    background: #FF6433;
+    margin-left: 450px;
 }
 
 .outer-box p{
